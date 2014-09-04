@@ -1,5 +1,5 @@
 # Name
-[Put your name here]
+Alexander Tsankov
 
 # Hardware Photo
 [insert a photo of your hardware]
@@ -23,10 +23,10 @@
 [Explain what signal you think you can pull from this data after cleaning] 
 
 # How fun was this mini-project? 
-[Scale 1-10; 1=no fun, 10=best class assignment ever]
+7
 
 # How hard was it? 
-[Scale 1-10; 1=a breeze, 10=impossible to do]
+5
 
 # How much did you learn from the experience?
-[Scale 1-10; 1=learned nothing, 10=biggest learning experience of the year]
+8
