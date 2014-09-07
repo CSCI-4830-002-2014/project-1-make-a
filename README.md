@@ -1,32 +1,95 @@
 # Name
-[Put your name here]
+Daniel Nolan
 
 # Hardware Photo
 [insert a photo of your hardware]
 
 # Data type
-[How is your data being saved - csv, tsv, json, etc]
+My data is saved through .csv
 
 # How did you get your prototype working?
-[Explain any modifications you made to the code I provied in order to get your mini-project working]
+I followed the instructions given by the TA on tuesday and soldered what needed to be soldered. I used the implemented code that my TA gave me and uploaded it through Arduino. Then, I followed the Prokect 1 Make A portion online to test out my microphone which began recording sound pitches and outputting data when testing.
 
 # Arduino Code
-[Replace the sample arduino code in this repo with the your arduino code, then put the name of your file here]
+*/#include <SD.h>
 
+#define mic A0
+
+const int silent = 343;
+const int samples = 10000;
+const int chipSelect = 4;
+
+int led = 13;
+int volume;
+float runavg = 0;
+long newSample;
+long myIndex = 0;
+char sound[10];
+
+ 
+void setup() {                
+  Serial.begin(9600); // For debugging
+  
+  Serial.print("Initializing SD card...");
+  if (!SD.begin(chipSelect)) {
+    Serial.println("Card failed, or not present");
+    // don't do anything more:
+    return;
+  }
+  Serial.println("card initialized.");  
+    
+}
+ 
+void loop() {
+  long sumofsamples = 0;  
+  String dataString = "";
+  
+  for (int i=0; i<samples; i++){
+    volume = analogRead(mic); // Should read about 1.65V or 340(ish)
+    newSample = volume - silent;
+    newSample *= newSample;
+    sumofsamples += newSample;  
+  }
+  
+  myIndex++;
+  runavg = sqrt(sumofsamples/samples);
+  dtostrf(runavg, 1, 2, sound);
+
+  dataString += String(sound);
+  dataString += ","; 
+  dataString += myIndex;
+  dataString += "\n";
+  
+  File dataFile = SD.open("datalog.csv", FILE_WRITE);
+
+  // if the file is available, write to it:
+  if (dataFile) {
+    dataFile.println(dataString);
+    dataFile.close();
+    // print to the serial port too:
+    Serial.println(dataString);
+  }  
+  // if the file isnt open, pop up an error:
+  else {
+    Serial.println("error opening datalog.txt");
+  } 
+  
+}
+*/
 # Data Sample
 [Replace the sample data file in this repo with your data file, then put the name of your file here]
 
 # How did you collect this data?
-[Describe the setting and purpose of your data collection]
+In the Arduino program (after I plugged in the Arduino to my computer) 
 
 # What signal do you think is in your data?
-[Explain what signal you think you can pull from this data after cleaning] 
+After subtracting the average DC offset of the signal (3.3/2 V), you would use the AnalogRead values for your data since the DC offset is the amount of static noise from the arduino. Then this value is squared to make sure it is the most accurate positive value and that it changes and depends on the amplitude.
 
 # How fun was this mini-project? 
-[Scale 1-10; 1=no fun, 10=best class assignment ever]
+7
 
 # How hard was it? 
-[Scale 1-10; 1=a breeze, 10=impossible to do]
+3
 
 # How much did you learn from the experience?
-[Scale 1-10; 1=learned nothing, 10=biggest learning experience of the year]
+4
