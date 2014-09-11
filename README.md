@@ -17,12 +17,13 @@ To get the code to access the SD card I had to change the variable `chipSelect` 
 
 # Arduino Code
 filename: `sound_sensor_p1_v2.ino`
+
 The code has been changed so that a new file is used every time the logging starts. The index is
-replaced with the elapsed time since startup, and the `silent` is determined by the average read of
+replaced with the elapsed time since startup, and the `silent` variable is determined by the average read of
 the previous measure.
 
 # Data Sample
-`data.csv`
+filename: `data.csv`
 
 This sample data is recorded over 24 hours. I plan to do a longer measurement from Thursday to Sunday, but wont be able to submit it
 until Monday.
