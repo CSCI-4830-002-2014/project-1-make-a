@@ -2,7 +2,7 @@
 Niklas Fejes
 
 # Hardware Photo
-![image](image.png?raw=true)
+![image](image.jpg?raw=true)
 
 # Data type
 csv:
