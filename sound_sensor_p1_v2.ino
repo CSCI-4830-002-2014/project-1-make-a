@@ -41,13 +41,12 @@ public:
   // Number of hundredth of a second since last reset
   static uint32_t hs() { 
     uint16_t tl;
-    uint32_t th;
+    uint64_t th;
     ATOMIC_BLOCK(ATOMIC_RESTORESTATE) {
       tl = TCNT1;
       th = ovfcnt;
     }
-    uint64_t ticks = (th<<16) | tl;
-    return (uint32_t)(ticks / 2500);
+    return ((th<<16) | tl) / 2500;
   }
 
   // Format to string
@@ -112,6 +111,8 @@ void loop() {
   timer::hss(datastr); // Begin with current time
   strcat(datastr,",");
   dtostrf(runavg, 1, 2, datastr+strlen(datastr));
+  strcat(datastr,",");
+  itoa(silent, datastr+strlen(datastr), 10);
 
   // Log
   File dataFile = SD.open(filename, FILE_WRITE);
