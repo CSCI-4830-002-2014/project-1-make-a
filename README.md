@@ -1,17 +1,22 @@
 # Name
-[Put your name here]
+Niklas Fejes
 
 # Hardware Photo
-[insert a photo of your hardware]
+![image](image.png?raw=true)
 
 # Data type
-[How is your data being saved - csv, tsv, json, etc]
+csv:
+The data is stored as comma separated values, with one column being the time elapsed since startup
+(based on system clock) and the other being the measured sound volume.
 
 # How did you get your prototype working?
-[Explain any modifications you made to the code I provied in order to get your mini-project working]
+To run the Arduino software I had to run it as root. To get the code to run I had to change the 
+variable `chipSelect` from `4` to `8`.
 
 # Arduino Code
-[Replace the sample arduino code in this repo with the your arduino code, then put the name of your file here]
+filename: `sound_sensor_p1_v2.ino`
+The code has been changed so that a new file is used every time the logging starts. The index is
+replaced with the elapsed time since startup.
 
 # Data Sample
 [Replace the sample data file in this repo with your data file, then put the name of your file here]
@@ -23,10 +28,10 @@
 [Explain what signal you think you can pull from this data after cleaning] 
 
 # How fun was this mini-project? 
-[Scale 1-10; 1=no fun, 10=best class assignment ever]
+7
 
 # How hard was it? 
-[Scale 1-10; 1=a breeze, 10=impossible to do]
+5
 
 # How much did you learn from the experience?
-[Scale 1-10; 1=learned nothing, 10=biggest learning experience of the year]
+7
