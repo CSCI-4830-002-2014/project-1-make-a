@@ -2,13 +2,13 @@
 Alexander Tsankov
 
 # Hardware Photo
-[insert a photo of your hardware]
+![Arduino in a box ](picture.jpg)
 
 # Data type
-[How is your data being saved - csv, tsv, json, etc]
+Data is being saved to a CSV file. 
 
 # How did you get your prototype working?
-[Explain any modifications you made to the code I provied in order to get your mini-project working]
+I added an extra part to the print statement in the file 
 
 # Arduino Code
 [Replace the sample arduino code in this repo with the your arduino code, then put the name of your file here]
@@ -17,16 +17,16 @@ Alexander Tsankov
 [Replace the sample data file in this repo with your data file, then put the name of your file here]
 
 # How did you collect this data?
-[Describe the setting and purpose of your data collection]
+I put the arduino sensor in a box on my kitchen table and let it record over a period of time. I simply saved the data as a csv and performed subsequent analysis.
 
 # What signal do you think is in your data?
 [Explain what signal you think you can pull from this data after cleaning] 
 
 # How fun was this mini-project? 
-7
+8
 
 # How hard was it? 
 5
 
 # How much did you learn from the experience?
-8
+9

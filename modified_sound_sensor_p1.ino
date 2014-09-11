@@ -1,4 +1,6 @@
+
 #include <SD.h>
+#include <Time.h>
 
 #define mic A0
 
@@ -43,7 +45,9 @@ void loop() {
   myIndex++;
   runavg = sqrt(sumofsamples/samples);
   dtostrf(runavg, 1, 2, sound);
-
+  
+  dataString += now();
+  dataString += ",";
   dataString += String(sound);
   dataString += ","; 
   dataString += myIndex;
@@ -64,4 +68,3 @@ void loop() {
   } 
 
 }
-
