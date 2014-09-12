@@ -2,34 +2,34 @@
 
 
 ## Name
-[Put your name here]
+Justin McBride
 
 ## Hardware Photo (7 points)
-[insert a photo of your hardware]
+![image](hardware.png?raw=true)
 
 ## Data type (2 points) 
-[How is your data being saved - csv, tsv, json, etc]
+csv
 
 ## How did you get your prototype working? (7 points)
-[Explain any modifications you made to the code I provied in order to get your mini-project working]
+No modifications were needed.
 
 ## Arduino Code (10 points)
-[Replace the sample arduino code in this repo with the your arduino code, then put the name of your file here]
+sound_sensor.ino
 
 ## Data Sample (7 points)
-[Replace the sample data file in this repo with your data file, then put the name of your file here]
+data.csv
 
 ## How did you collect this data? (5 points)
-[Describe the setting and purpose of your data collection]
+The sensor was in our living room near our window. It was used to monitor our dog and see if she was barking while we were not home.
 
 ## What signal do you think is in your data? (3 points)
 [Explain what signal you think you can pull from this data after cleaning] 
 
 ## How fun was this mini-project? (3 points)
-[Scale 1-10; 1=no fun, 10=best class assignment ever]
+5
 
 ## How hard was it? (3 points)
-[Scale 1-10; 1=a breeze, 10=impossible to do]
+1
 
 ## How much did you learn from the experience? (3 points)
-[Scale 1-10; 1=learned nothing, 10=biggest learning experience of the year]
+2
