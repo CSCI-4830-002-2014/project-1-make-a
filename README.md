@@ -2,7 +2,7 @@
 
 
 ## Name
-[Put your name here]
+Dawson Botsford
 
 ## Hardware Photo (7 points)
 [insert a photo of your hardware]
