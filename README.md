@@ -1,32 +1,33 @@
 # Name
-[Put your name here]
+Brian Newsom
 
 # Hardware Photo
-[insert a photo of your hardware]
+![image](hardware.jpg?raw=true)
+
 
 # Data type
-[How is your data being saved - csv, tsv, json, etc]
+csv
 
 # How did you get your prototype working?
-[Explain any modifications you made to the code I provied in order to get your mini-project working]
+I made little modifications - I simply increased the sample rate so that I can have a finer precision to manipulate.
 
 # Arduino Code
-[insert link to a github repo with your arduino code]
+[Arduino Code](_1_A_inoModified/_1_A_inoModified.ino)
 
 # Data Sample
-[insert a screenshot of some saved data you collected]
+![image](data.png?raw=true)
 
 # How did you collect this data?
-[Describe the setting and purpose of your data collection]
+I placed my arduino (with microphone sensor) in my living room while hanging out with friends. I plugged it into an AC power source and left it on for about 6 hours. 
 
 # What signal do you think is in your data?
-[Explain what signal you think you can pull from this data after cleaning] 
+If I correctly understand what the data I have contains, I'd like to do simple Fourier Analysis to determine dominant pitches throughout the night.  If I simply have volume data I will examine loudness vs. time through the party.
 
 # How fun was this mini-project? 
-[Scale 1-10; 1=no fun, 10=best class assignment ever]
+7
 
 # How hard was it? 
-[Scale 1-10; 1=a breeze, 10=impossible to do]
+8 - Only because I had never soldered nor worked with Arduino
 
 # How much did you learn from the experience?
-[Scale 1-10; 1=learned nothing, 10=biggest learning experience of the year]
+7 - Learned some great hardware fundamentals. Excited to learn more about the coding and analysis.
