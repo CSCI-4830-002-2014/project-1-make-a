@@ -5,7 +5,7 @@
 Justin McBride
 
 ## Hardware Photo (7 points)
-![image](hardware.png?raw=true)
+![image](hardware.jpg?raw=true)
 
 ## Data type (2 points) 
 csv
