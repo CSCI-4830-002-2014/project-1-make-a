@@ -16,7 +16,7 @@ I added a Time library so that I could output a more readable time format for wh
 [Time.h](sound_sensor/time.h)
 
 # Data Sample
-[DATALOG.csv](DATALOG.csv)
+[DATALOG.CSV](DATALOG.CSV)
 
 # How did you collect this data?
 On Friday evening, we had a party and I kept the sound sensor near the speakers to see how the music loudness changed throughout the night. I turned the sensor on around 8pm and it collected data for a little over 4 hours before the battery died.
