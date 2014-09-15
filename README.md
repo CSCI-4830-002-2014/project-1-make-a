@@ -5,7 +5,7 @@
 Adrian Chen
 
 ## Hardware Photo (7 points)
-[Image]imag0096.jpg
+![image]imag0096.jpg
 
 ## Data type (2 points) 
 csv
