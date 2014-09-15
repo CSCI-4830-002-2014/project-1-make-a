@@ -1,35 +1,34 @@
 # Due 9/14/2014  (50 points)
 
-
 ## Name
-[Put your name here]
+Peyman Mortazavi
 
 ## Hardware Photo (7 points)
-[insert a photo of your hardware]
+[Imgur](http://i.imgur.com/pQlwUCk.png)
 
 ## Data type (2 points) 
-[How is your data being saved - csv, tsv, json, etc]
+CSV ($LIGHT_VALUE, $INDEX)
 
 ## How did you get your prototype working? (7 points)
-[Explain any modifications you made to the code I provied in order to get your mini-project working]
+Many changes, since I had light sensor, I had to add all the SD writing and calculating average and whatnot myself.
 
 ## Arduino Code (10 points)
-[Replace the sample arduino code in this repo with the your arduino code, then put the name of your file here]
+lightSensor.c
 
 ## Data Sample (7 points)
-[Replace the sample data file in this repo with your data file, then put the name of your file here]
+data.csv
 
 ## How did you collect this data? (5 points)
-[Describe the setting and purpose of your data collection]
+I put it in our living room just to collect data about how much light our living room have in different times.
 
 ## What signal do you think is in your data? (3 points)
-[Explain what signal you think you can pull from this data after cleaning] 
+Nothing special really. I'm expecting to see some anomaly in data during the night as some people open the light to go to kitchen or things like that and to see how does light change during the day with no lights on.
 
 ## How fun was this mini-project? (3 points)
-[Scale 1-10; 1=no fun, 10=best class assignment ever]
+10
 
 ## How hard was it? (3 points)
-[Scale 1-10; 1=a breeze, 10=impossible to do]
+7
 
 ## How much did you learn from the experience? (3 points)
-[Scale 1-10; 1=learned nothing, 10=biggest learning experience of the year]
+8
