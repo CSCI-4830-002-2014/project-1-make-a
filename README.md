@@ -12,6 +12,7 @@ I added a Time library so that I could output a more readable time format for wh
 
 # Arduino Code
 [sound_sensor.ino](sound_sensor/sound_sensor.ino)
+
 [Time.h](sound_sensor/time.h)
 
 # Data Sample
