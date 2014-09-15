@@ -11,7 +11,8 @@ Michael Aaron
 csv
 
 ## How did you get your prototype working? (7 points)
-drastically increased the sample rate, as well as set a threshold with an index reset so it would be easier to find and analyze "notes". I have a feeling my sample rate may be too low for what I am trying to do, but I will play with it before class to see if I can't increase the rates
+Substantial changes. drastically increased the sample rate, set a threshold to start sampeling values when I play
+a chord (it took a long time to find a value that worked well), changed the loop so that it would automatically record the next 200 samples after a threshold is hit. Put in a sample index so it is easy for me to seperate notes when we get to evaluating data. Probably some other changes I forgot about. 
 
 ## Arduino Code (10 points)
 #include <SoftwareSerial.h>
@@ -20,17 +21,19 @@ drastically increased the sample rate, as well as set a threshold with an index 
 
 #define mic A0
 
-const int silent = 343;
-const int samples = 15;
+const int sampleSize= 200;
 const int chipSelect = 8;
-const int threshold = 15;
+const int threshold = 40;
 
+int silent = 340;
 int led = 13;
 int volume;
 float runavg = 0;
 long newSample;
 long myIndex = 0;
+long sample_index=0;
 char sound[10];
+int minIndex=5;
 
  
 void setup() {                
@@ -42,46 +45,49 @@ void setup() {
     // don't do anything more:
     return;
   }
-  Serial.println("card initialized.");  
+  Serial.println("card initialized.");
     
 }
  
 void loop() {
   
   
-  long sumofsamples = 0;  
   String dataString = "";
-  
-  for (int i=0; i<samples; i++){
-    volume = analogRead(mic); // Should read about 1.65V or 340(ish)
-    newSample = volume - silent;
-    newSample *= newSample;
-    sumofsamples += newSample;  
-  }
-  
-  
-  runavg = sqrt(sumofsamples/samples);
-  dtostrf(runavg, 1, 2, sound);
+  volume = analogRead(mic); // Should read about 1.65V or 340(ish)
+  newSample = volume - silent;
+  dtostrf(newSample, 1, 2, sound);
 
-  if (int(runavg)>threshold)
+  if (int(newSample)>threshold)
   {
-    myIndex++;
-    dataString += String(sound);
-    dataString += ","; 
-    dataString += myIndex;
-    dataString += "\n";
-    // if the file is available, write to it:
-    File dataFile = SD.open("datalog.csv", FILE_WRITE);
-    if (dataFile) {
-      dataFile.println(dataString);
-      // print to the serial port too:
-      Serial.println(dataString);
-      dataFile.close();
-    }  
-    // if the file isn't open, pop up an error:
-    else {
-      Serial.println("error opening datalog.txt");
-    } 
+    sample_index++;
+    while(myIndex<sampleSize){
+      dataString = "";
+      volume = analogRead(mic);
+      newSample = volume - silent;
+      dtostrf(newSample, 1, 2, sound);
+      myIndex++;
+      dataString += String(sound);
+      dataString += " "; 
+      dataString += sample_index;
+      dataString += " ";
+      dataString += myIndex;
+      dataString += "\n";
+      // if the file is available, write to it:
+      File dataFile = SD.open("datalog.csv", FILE_WRITE);
+      if (dataFile) {
+        dataFile.println(dataString);
+        // print to the serial port too:
+        Serial.println(dataString);
+        dataFile.close();
+      }  
+      // if the file isn't open, pop up an error:
+      else {
+        Serial.println("error opening datalog.txt");
+        } 
+    }
+  }
+  else{
+    myIndex=0;
   }
   
 }
