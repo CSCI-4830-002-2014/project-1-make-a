@@ -5,7 +5,7 @@
 Michael Aaron
 
 ## Hardware Photo (7 points)
-![Ardiuno](./ard_1.jpeg)
+![Ardiuno](https://github.com/develra/project-1-make-a/blob/master/ard_1.jpg)
 
 ## Data type (2 points) 
 csv
