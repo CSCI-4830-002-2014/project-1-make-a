@@ -2,16 +2,16 @@
 
 
 ## Name
-[Put your name here]
+Jake Charland
 
 ## Hardware Photo (7 points)
 [insert a photo of your hardware]
 
 ## Data type (2 points) 
-[How is your data being saved - csv, tsv, json, etc]
+csv
 
 ## How did you get your prototype working? (7 points)
-[Explain any modifications you made to the code I provied in order to get your mini-project working]
+I did not make any changes to the code the data volume level was good enough for me.
 
 ## Arduino Code (10 points)
 [Replace the sample arduino code in this repo with the your arduino code, then put the name of your file here]
