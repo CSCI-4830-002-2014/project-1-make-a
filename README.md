@@ -5,31 +5,31 @@
 Dawson Botsford
 
 ## Hardware Photo (7 points)
-[insert a photo of your hardware]
+![image](http://i.imgur.com/eWUrheC.jpg)
 
 ## Data type (2 points) 
-[How is your data being saved - csv, tsv, json, etc]
+csv
 
 ## How did you get your prototype working? (7 points)
-[Explain any modifications you made to the code I provied in order to get your mini-project working]
+I made no modifications to the code to get it working. I simply left the sample rate the same and uploaded the code.
 
 ## Arduino Code (10 points)
-[Replace the sample arduino code in this repo with the your arduino code, then put the name of your file here]
+sound_sensor_p1.ino
 
 ## Data Sample (7 points)
-[Replace the sample data file in this repo with your data file, then put the name of your file here]
+data.csv
 
 ## How did you collect this data? (5 points)
-[Describe the setting and purpose of your data collection]
+I thought a good sample for this project would be to record sound during a party we threw at our house. There is a table we have next to the coach in the living room. I chose this as the area for data collection because conversation was there the entire duration of the party. Now we have data for when during the night it got loudest. This can be used as an estimate for when would be the most lively time during the party. 
 
 ## What signal do you think is in your data? (3 points)
-[Explain what signal you think you can pull from this data after cleaning] 
+We can do some cool ratio analytics to determine at what point in the party it is loudest. Is it 30 minutes after the official event began or is it two hours in just before everyone leaves? 
 
-## How fun was this mini-project? (3 points)
-[Scale 1-10; 1=no fun, 10=best class assignment ever]
+## How fun was this mini-project? (3 points) (10 being most fun)
+8 (Love begin able to see my efforts come to life immediatly
 
 ## How hard was it? (3 points)
-[Scale 1-10; 1=a breeze, 10=impossible to do]
+4 (Some difficulties with soldering to begin)
 
 ## How much did you learn from the experience? (3 points)
-[Scale 1-10; 1=learned nothing, 10=biggest learning experience of the year]
+5 (soldering was fairly new for me)
