@@ -5,7 +5,7 @@
 Michael Aaron
 
 ## Hardware Photo (7 points)
-![Ardiuno](ard_1.jpeg)
+![Ardiuno](./ard_1.jpeg)
 
 ## Data type (2 points) 
 csv
