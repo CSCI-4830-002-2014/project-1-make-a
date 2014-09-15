@@ -14,22 +14,22 @@ csv
 I did not make any changes to the code the data volume level was good enough for me.
 
 ## Arduino Code (10 points)
-[Replace the sample arduino code in this repo with the your arduino code, then put the name of your file here]
+sound_sensor_p1
 
 ## Data Sample (7 points)
-[Replace the sample data file in this repo with your data file, then put the name of your file here]
+DATALOG.CSV
 
 ## How did you collect this data? (5 points)
-[Describe the setting and purpose of your data collection]
+In my house to see what my schedule is based on sound levels in my office.
 
 ## What signal do you think is in your data? (3 points)
-[Explain what signal you think you can pull from this data after cleaning] 
+I want to determine if I am currently in my house and what times i tend to leave or come home.
 
 ## How fun was this mini-project? (3 points)
-[Scale 1-10; 1=no fun, 10=best class assignment ever]
+7
 
 ## How hard was it? (3 points)
-[Scale 1-10; 1=a breeze, 10=impossible to do]
+3
 
 ## How much did you learn from the experience? (3 points)
-[Scale 1-10; 1=learned nothing, 10=biggest learning experience of the year]
+8
