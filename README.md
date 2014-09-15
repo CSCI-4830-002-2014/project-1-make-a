@@ -5,7 +5,7 @@
 Adrian Chen
 
 ## Hardware Photo (7 points)
-![image]imag0096.jpg
+![image](imag0096.jpg?raw=true)
 
 ## Data type (2 points) 
 csv
@@ -14,7 +14,7 @@ csv
 I made no modifications to the code.
 
 ## Arduino Code (10 points)
-[Replace the sample arduino code in this repo with the your arduino code, then put the name of your file here]
+The sample arduino code wasn't changed at all.
 
 ## Data Sample (7 points)
 DATALOG.csv
