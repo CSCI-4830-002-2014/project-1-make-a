@@ -15,7 +15,7 @@ I added a column in the CSV monitoring seconds passed using a now() function fro
 I also added a column for the day of the week that the data was being recorded.
 
 ## Arduino Code (10 points)
-[Replace the sample arduino code in this repo with the your arduino code, then put the name of your file here]
+https://github.com/thefyk/project-1-make-a/blob/master/sound_sensor_p1.ino
 
 ## Data Sample (7 points)
 [Replace the sample data file in this repo with your data file, then put the name of your file here]
