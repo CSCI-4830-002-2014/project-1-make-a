@@ -17,7 +17,7 @@ I made no modifications to the code to get it working. I simply left the sample 
 sound_sensor_p1.ino
 
 ## Data Sample (7 points)
-data.csv
+datalogparty1.csv
 
 ## How did you collect this data? (5 points)
 I thought a good sample for this project would be to record sound during a party we threw at our house. There is a table we have next to the coach in the living room. I chose this as the area for data collection because conversation was there the entire duration of the party. Now we have data for when during the night it got loudest. This can be used as an estimate for when would be the most lively time during the party. 
