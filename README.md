@@ -1,32 +1,32 @@
 # Name
-[Put your name here]
+[Joshua Ferge]
 
 # Hardware Photo
-[insert a photo of your hardware]
+![image](photo.jpg?raw=true)
 
 # Data type
-[How is your data being saved - csv, tsv, json, etc]
+[csv]
 
 # How did you get your prototype working?
-[Explain any modifications you made to the code I provied in order to get your mini-project working]
+[Nothing, was perfect for what I wanted it to do]
 
 # Arduino Code
-[Replace the sample arduino code in this repo with the your arduino code, then put the name of your file here]
+[sound_sensor_p1.ino]
 
 # Data Sample
-[Replace the sample data file in this repo with your data file, then put the name of your file here]
+[data.csv]
 
 # How did you collect this data?
-[Describe the setting and purpose of your data collection]
+[I set the arduino in my living room and collected data over a day to see when the living room is the loudest]
 
 # What signal do you think is in your data?
-[Explain what signal you think you can pull from this data after cleaning] 
+[I will be able to graph the sound over time of my data] 
 
 # How fun was this mini-project? 
-[Scale 1-10; 1=no fun, 10=best class assignment ever]
+[8]
 
 # How hard was it? 
-[Scale 1-10; 1=a breeze, 10=impossible to do]
+[6]
 
 # How much did you learn from the experience?
-[Scale 1-10; 1=learned nothing, 10=biggest learning experience of the year]
+[7]
