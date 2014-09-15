@@ -2,34 +2,38 @@
 
 
 ## Name
-[Put your name here]
+Alexia Newgord
 
 ## Hardware Photo (7 points)
-[insert a photo of your hardware]
+![image](img1.jpg?raw=true)
+![image](img2.jpg?raw=true)
 
 ## Data type (2 points) 
-[How is your data being saved - csv, tsv, json, etc]
+csv file
 
 ## How did you get your prototype working? (7 points)
-[Explain any modifications you made to the code I provied in order to get your mini-project working]
+I modified the code provided by Michael and made it so that the measured data could be easily average and callibrated over time (and added to a .csv file).  I also looked at multiple libraries written by individuals that are supposed to look at attributes like frequency, period, etc.  Unfortunately, there are some differences between their setup and my own, so I'm still trying to understand these variations.   The idea is that once I can measure frequency, I can apply an algorithm to guess the key of a piece based on the common frequencies (notes). 
 
 ## Arduino Code (10 points)
-[Replace the sample arduino code in this repo with the your arduino code, then put the name of your file here]
+I've been working on the following files:
+frequencyReader.ino
+frequencyReader2.ino
+frequencyReader3.ino
 
 ## Data Sample (7 points)
-[Replace the sample data file in this repo with your data file, then put the name of your file here]
+datalog.csv
 
 ## How did you collect this data? (5 points)
-[Describe the setting and purpose of your data collection]
+The data attached shows the results of my varying experiments, which continued tacking the formatted results to the end of the file.
 
 ## What signal do you think is in your data? (3 points)
-[Explain what signal you think you can pull from this data after cleaning] 
+I'd like to pull the frequency of the waves from the data.
 
 ## How fun was this mini-project? (3 points)
-[Scale 1-10; 1=no fun, 10=best class assignment ever]
+7
 
 ## How hard was it? (3 points)
-[Scale 1-10; 1=a breeze, 10=impossible to do]
+8
 
 ## How much did you learn from the experience? (3 points)
-[Scale 1-10; 1=learned nothing, 10=biggest learning experience of the year]
+7
