@@ -18,10 +18,10 @@ I also added a column for the day of the week that the data was being recorded.
 https://github.com/thefyk/project-1-make-a/blob/master/sound_sensor_p1.ino
 
 ## Data Sample (7 points)
-[Replace the sample data file in this repo with your data file, then put the name of your file here]
+https://github.com/thefyk/project-1-make-a/blob/master/data.csv
 
 ## How did you collect this data? (5 points)
-Every day for four days I 
+Every day for four days I recorded sound starting at 6:00pm and brought the Arduino with me to see if there was a certain time of night I was in the loudest setting.
 
 ## What signal do you think is in your data? (3 points)
 I hypothesize that the data will show later hours of the night as being louder on average while thursday and sunday will be quieter than friday and saturday.
