@@ -13,33 +13,31 @@ long newSample;
 long myIndex = 0;
 char sound[10];
 
-
+ 
 void setup() {                
   Serial.begin(9600); // For debugging
-
+  
   Serial.print("Initializing SD card...");
-  pinMode(chipSelect, OUTPUT);
-  pinMode(10, OUTPUT);
   if (!SD.begin(chipSelect)) {
     Serial.println("Card failed, or not present");
     // don't do anything more:
     return;
   }
   Serial.println("card initialized.");  
-
+    
 }
-
+ 
 void loop() {
   long sumofsamples = 0;  
   String dataString = "";
-
+  
   for (int i=0; i<samples; i++){
     volume = analogRead(mic); // Should read about 1.65V or 340(ish)
     newSample = volume - silent;
     newSample *= newSample;
-    sumofsamples += newSample;  
+    sumofsamples += newSample; 
   }
-
+  
   myIndex++;
   runavg = sqrt(sumofsamples/samples);
   dtostrf(runavg, 1, 2, sound);
@@ -48,10 +46,11 @@ void loop() {
   dataString += ","; 
   dataString += myIndex;
   dataString += "\n";
-
+  
   File dataFile = SD.open("datalog.csv", FILE_WRITE);
 
   // if the file is available, write to it:
+  delay(60000);
   if (dataFile) {
     dataFile.println(dataString);
     dataFile.close();
@@ -62,6 +61,5 @@ void loop() {
   else {
     Serial.println("error opening datalog.txt");
   } 
-
+  
 }
-
