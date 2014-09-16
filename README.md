@@ -2,10 +2,10 @@
 Daniel Nolan
 
 # Hardware Photo
-[insert a photo of your hardware]
+![My Ballin' Arduino!](http://imgur.com/AwsUR8a.png)
 
 # Data type
-My data is saved through .csv
+My data is saved through .csv and is opened through Excel.
 
 # How did you get your prototype working?
 I followed the instructions given by the TA on tuesday and soldered what needed to be soldered. I used the implemented code that my TA gave me and uploaded it through Arduino. Then, I followed the Prokect 1 Make A portion online to test out my microphone which began recording sound pitches and outputting data when testing.
@@ -77,7 +77,7 @@ void loop() {
 }
 */
 # Data Sample
-[Replace the sample data file in this repo with your data file, then put the name of your file here]
+DATALOG.csv in repo
 
 # How did you collect this data?
 In the Arduino program (after I plugged in the Arduino to my computer) 
