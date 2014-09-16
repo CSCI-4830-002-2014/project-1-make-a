@@ -15,10 +15,10 @@ Chris Wittenberg
 I used the beginner code. It suits my purposes. 
 
 ## Arduino Code (10 points)
-[Replace the sample arduino code in this repo with the your arduino code, then put the name of your file here]
+BDprojecta.ino (in sound_sensor_p1 folder)
 
 ## Data Sample (7 points)
-[Replace the sample data file in this repo with your data file, then put the name of your file here]
+bddata.txt
 
 ## How did you collect this data? (5 points)
 I sat outside of the Engineering Center while I was eating lunch for an hour. 
