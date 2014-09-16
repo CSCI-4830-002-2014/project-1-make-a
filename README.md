@@ -80,10 +80,10 @@ void loop() {
 DATALOG.csv in repo
 
 # How did you collect this data?
-In the Arduino program (after I plugged in the Arduino to my computer) 
+In the Arduino program (after I plugged in the Arduino to my computer). I used the Arduino program and set aside a sketch and tested out my code to get initial readings before actually implementing the SD card in my Arduino board with the code above in it. 
 
 # What signal do you think is in your data?
-After subtracting the average DC offset of the signal (3.3/2 V), you would use the AnalogRead values for your data since the DC offset is the amount of static noise from the arduino. Then this value is squared to make sure it is the most accurate positive value and that it changes and depends on the amplitude.
+After subtracting the average DC offset of the signal (3.3/2 V), you would use the AnalogRead values for your data since the DC offset is the amount of static noise from the arduino. Then this value is squared to make sure it is the most accurate positive value and that it changes and depends on the amplitude. My data is the square value of the wave amplitudes recorded by sound through my amplified microphone. This gives me only positive values so there are only peaks to easily measure the changing of amplitude due to possibly lower sounds in the area the Arduino is.
 
 # How fun was this mini-project? 
 7
