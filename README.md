@@ -5,13 +5,14 @@
 Chris Wittenberg
 
 ## Hardware Photo (7 points)
-[insert a photo of your hardware]
+
+![image](arduino.png?raw=true)
 
 ## Data type (2 points) 
 .txt
 
 ## How did you get your prototype working? (7 points)
-I used the beginner code. It suits my purposes.
+I used the beginner code. It suits my purposes. 
 
 ## Arduino Code (10 points)
 [Replace the sample arduino code in this repo with the your arduino code, then put the name of your file here]
@@ -23,10 +24,10 @@ I used the beginner code. It suits my purposes.
 I sat outside of the Engineering Center while I was eating lunch for an hour. 
 
 ## What signal do you think is in your data? (3 points)
-I am looking at volume. 
+I am looking at sound volume overtime. 
 
 ## How fun was this mini-project? (3 points)
-4
+5
 
 ## How hard was it? (3 points)
 4
