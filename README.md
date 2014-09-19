@@ -14,7 +14,7 @@ How is your data being saved - csv
 I only used the part to write to the file mostly.  I looked up the sensor device and it came with some simple sample code to take data.
 
 ## Arduino Code (10 points)
-[Replace the sample arduino code in this repo with the your arduino code, then put the name of your file here]
+I couldn't get Arduino setup on my computer properly (my computer is more of a mess than sorority girls on a saturday morning), and set it up with my friends computer.  My code was a slight mix of your sample code and [the sparkfun sample code] (http://wiring.org.co/learning/basics/ambientlighttemt6000.html).
 
 ## Data Sample (7 points)
 [Replace the sample data file in this repo with your data file, then put the name of your file here]
