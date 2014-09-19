@@ -17,7 +17,7 @@ I only used the part to write to the file mostly.  I looked up the sensor device
 I couldn't get Arduino setup on my computer properly (my computer is more of a mess than sorority girls on a saturday morning), and set it up with my friends computer.  My code was a slight mix of your sample code and [the sparkfun sample code] (http://wiring.org.co/learning/basics/ambientlighttemt6000.html).
 
 ## Data Sample (7 points)
-[Replace the sample data file in this repo with your data file, then put the name of your file here]
+[your DATALOG here](DATALOG.CSV)
 
 ## How did you collect this data? (5 points)
 I set it outside on a balcony to get sunlight.  As I excpeted most of the data was maxing out the sensor, because it was in the sun.  However, upon further reading it seems these types of sensors might react extra sensitively to UV light, so it would be best to get data indoors.
