@@ -14,7 +14,7 @@ CSV
 I changed the names of variables to make it more understandable since it is a light sensor.
 
 ## Arduino Code (10 points)
-[Replace the sample arduino code in this repo with the your arduino code, then put the name of your file here]
+sound sensor p1 (even though its light)
 
 ## Data Sample (7 points)
 [Replace the sample data file in this repo with your data file, then put the name of your file here]
