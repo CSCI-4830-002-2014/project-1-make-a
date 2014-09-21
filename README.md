@@ -2,34 +2,34 @@
 
 
 ## Name
-[Put your name here]
+Nikita Voskoboynik
 
 ## Hardware Photo (7 points)
-[insert a photo of your hardware]
+[Imgur](http://i.imgur.com/KqR7w9L.jpg)
 
 ## Data type (2 points) 
-[How is your data being saved - csv, tsv, json, etc]
+CSV
 
 ## How did you get your prototype working? (7 points)
-[Explain any modifications you made to the code I provied in order to get your mini-project working]
+I changed the names of variables to make it more understandable since it is a light sensor.
 
 ## Arduino Code (10 points)
-[Replace the sample arduino code in this repo with the your arduino code, then put the name of your file here]
+sound sensor p1 (even though its light)
 
 ## Data Sample (7 points)
 [Replace the sample data file in this repo with your data file, then put the name of your file here]
 
 ## How did you collect this data? (5 points)
-[Describe the setting and purpose of your data collection]
+I collected data on the amount of light entering my bedroom in the morning. I wanted to see if there was a gradual increase in light or if there was a light that it spiked.
 
 ## What signal do you think is in your data? (3 points)
-[Explain what signal you think you can pull from this data after cleaning] 
+There is a spike in sunlight at one point. I can show this with a line graph.
 
 ## How fun was this mini-project? (3 points)
-[Scale 1-10; 1=no fun, 10=best class assignment ever]
+6
 
 ## How hard was it? (3 points)
-[Scale 1-10; 1=a breeze, 10=impossible to do]
+6
 
 ## How much did you learn from the experience? (3 points)
-[Scale 1-10; 1=learned nothing, 10=biggest learning experience of the year]
+7
